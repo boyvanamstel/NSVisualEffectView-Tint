@@ -29,7 +29,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   func applyTint() {
    
     if let color = self.tintColor {
-      print("Applying ting: \(self.tintColor)")
+      print("Applying tint: \(self.tintColor)")
       // Tint the visual effect view
       for sublayer: CALayer in self.vibrancyView.layer!.sublayers! {
         if sublayer.name == "ClearCopyLayer" {
